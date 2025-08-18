@@ -543,7 +543,8 @@ def main():
     unmapped = storage_values.get("_unmapped_facts", [])
     if unmapped:
         print(f"NOTE: {len(unmapped)} unmapped facts found. Inspect 'sec_xbrl_facts.csv' and storage_values['_unmapped_facts']")
-
+    
+    return fmap
     print("Written to csv successfully")
 
 
