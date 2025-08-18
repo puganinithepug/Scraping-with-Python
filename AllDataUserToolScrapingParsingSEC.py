@@ -544,7 +544,7 @@ def main():
     print("Written to csv successfully")
 
     csv_list = ["sec_xbrl_scrape_content.csv", "sec_xbrl_scrape_values.csv", "sec_xbrl_contexts.csv", "sec_xbrl_facts.csv"]
-    print(csv_list)
+    # print(csv_list)
     return csv_list
 
 
